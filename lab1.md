@@ -25,7 +25,7 @@ Your account password will need to be changed. Click on your **additional accoun
 ## Step 3 - Connecting to the CSE Server Remotely
 Once you reset your password, you can use your course-specific account to remotely access a server. Using the VScode, we will use the terminal to use `ssh`. Next to this icon: ![Image](terminalIcon.png) make sure that `bash` is the selected. 
 
-To open a new terminal, click on the **Terminal** in the menu bar and in the drop-down menu, select **New Terminal** OR a keyboard shortcut you can use is (Ctrl/Command + `). 
+To open a new terminal, click on the **Terminal** in the menu bar and in the drop-down menu, select **New Terminal** OR a keyboard shortcut you can use is (Ctrl/Command + ). 
 
 Enter `ssh` as the first argument, and as the second, enter your course-specific username, attached to `@ieng6.ucsd.edu`, which is the server domain. Your command line should look something like this (with XX replaced by your own letters): 
 
@@ -40,7 +40,7 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 
-This message you are seeing is completely normal if you are connecting to a new server for the first time. However, if you receive the message often, it could be indicating that the connection is being disrupted by another person. More information here: [Being Voigt's answer](https://superuser.com/questions/421074/ssh-the-authenticity-of-host-host-cant-be-established/421084#421084).
+This message you are seeing is completely normal if you are connecting to a new server for the first time. However, if you receive the message often, it could be indicating that the connection is being disrupted by another person. More information here: [Ben Voigt's answer](https://superuser.com/questions/421074/ssh-the-authenticity-of-host-host-cant-be-established/421084#421084).
 
 Continue connecting by entering yes, then enter the password that you changed for your account in step 2 once prompted. ***(For security reasons, your password will not be visible and you will not be able to see what you type. Just press enter when you've typed your password.)*** If you've entered your password and you receive a message that gives you the same password prompt, your password change may still be processing. Wait 10-15 minutes to see if you are able to successfully log in. Otherwise, you will receive a message stating that access has been denied which is due to an incorrect password. 
 
