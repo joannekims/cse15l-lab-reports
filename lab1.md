@@ -1,4 +1,4 @@
-# Lab Report 1: Connecting to a Remote Server </sub>
+# Lab Report 1: Connecting to a Remote Server
 
 
 ## Step 1 - Download Visual Studio Code (VScode)
