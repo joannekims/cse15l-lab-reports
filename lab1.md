@@ -29,7 +29,7 @@ To open a new terminal, click on the **Terminal** in the menu bar and in the dro
 
 Enter `ssh` as the first argument, and as the second, enter your course-specific username, attached to `@ieng6.ucsd.edu`, which is the server domain. Your command line should look something like this (with XX replaced by your own letters): 
 
-` $ ssh cs15lsp23XX@ieng6.ucsd.edu      `. 
+` $ ssh cs15lsp23XX@ieng6.ucsd.edu      ` 
 
 Your first time connecting to the server will give you an output that looks something like this:
 
