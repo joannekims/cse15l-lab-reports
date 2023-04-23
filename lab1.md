@@ -3,7 +3,7 @@
 
 ## Step 1 - Download Visual Studio Code (VScode)
 VScode is a source-code editor that we will be using to edit and work on our code.
-Click on the link- [https://code.visualstudio.com], to download the respective, stable, version that best suits your operating system. (macOS for Macs & Windows for PCs) Follow the download instructions to install the application on your computer. 
+Click on the link- [https://code.visualstudio.com](https://code.visualstudio.com), to download the respective, stable, version that best suits your operating system. (macOS for Macs & Windows for PCs) Follow the download instructions to install the application on your computer. 
 
 Once installed, VScode should open a window that looks similar to this:
 
