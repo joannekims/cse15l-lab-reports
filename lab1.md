@@ -55,7 +55,7 @@ Now that you're somewhat familiar with the terminal, you can try running the fol
   * `ls` - 'list' command lists the files and folders of the specified directory, or the currendt directory if unspecified. 
   * `pwd` - 'print working directory' command prints the complete path of the current working directory. 
   * `mkdir` - 'make directory' command creates directories (new folders)- follow with desired directory name as argument. 
-  * `cp` - 'copy' command copies filies or group of directories into the specified destination- follow with two command line arguments: file/directory origin and destined directiory 
+  * `cp` - 'copy' command copies filies or group of directories into the specified destination- follow with two command line arguments: file/directory origin and destined directiory.
 
 You should notice that the mkdir and cp commands produce a 'missing' error. This happens because `mkdir` *makes a directory* and `cp` *copies files.* Since they are executive commands, they require arguments to execute the function. 
 
