@@ -3,7 +3,7 @@
 
 ## Step 1 - Download Visual Studio Code (VScode)
 VScode is a source-code editor that we will be using to edit and work on our code.
-Click on the link- https://code.visualstudio.com, to download the respective, stable, version that best suits your operating system. (macOS for Macs & Windows for PCs) Follow the download instructions to install the application on your computer. 
+Click on the link- [https://code.visualstudio.com], to download the respective, stable, version that best suits your operating system. (macOS for Macs & Windows for PCs) Follow the download instructions to install the application on your computer. 
 
 Once installed, VScode should open a window that looks similar to this:
 
@@ -51,11 +51,11 @@ You should now be able to run any commands remotely from your computer, which is
 
 ## Step 5 - Running Commands
 Now that you're somewhat familiar with the terminal, you can try running the following commands *alone* on **your computer** (not connected to the remote server) and the **server computer** to see what happens.
-  * `cd`
-  * `ls`
-  * `pwd`
-  * `mkdir`
-  * `cp`
+  * `cd` - 'change directories' command allows you to move directories with the given path.
+  * `ls` - 'list' command lists the files and folders of the specified directory, or the currendt directory if unspecified. 
+  * `pwd` - 'print working directory' command prints the complete path of the current working directory. 
+  * `mkdir` - 'make directory' command creates directories (new folders)- follow with desired directory name as argument. 
+  * `cp` - 'copy' command copies filies or group of directories into the specified destination- follow with two command line arguments: file/directory origin and destined directiory 
 
 You should notice that the mkdir and cp commands produce a 'missing' error. This happens because `mkdir` *makes a directory* and `cp` *copies files.* Since they are executive commands, they require arguments to execute the function. 
 
