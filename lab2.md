@@ -110,5 +110,4 @@ Among the relevant values of the *Handler* class, the URI object, `url` and `que
   
 
   
-  ## Part 3
   Lab 2 was simultaneously fun and informative. I was able to learn more about URLs which is prevalent in our everyday lives. I was finally able to understand how the URLs that I've been accessing work and what the different elements of a link mean. I learned how to create and run a server on a remote computer. Learning how to create a webpage and observing how different string concatenations change the behaviors and output on the webpage was another big thing I learned. Additionally, I feel like lab 3 was really good experience for me to learn how to debug. Prior to lab 3, I would blindly try to debug, but with this lab practice, I have a much better idea of how to approach buggy code.
