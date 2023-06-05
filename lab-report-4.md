@@ -16,7 +16,7 @@ As demonstrated below:
 After logging in, clone lab7 from your forked repository. Since we've added a new SSH key on our GitHub account, remember to clone the SSH Key when cloning. It should look like this, with the following key strokes to clone into the desired directory-
 
 1. `<mkdir>` - to create a new directory, "lab7"
-2. `<lab7>` - typed in addition to `mkdir`
+2. `<lab7>` - typed in addition to `<mkdir>`
 3. `<cd> <lab7>` - to change directories into lab7
 4. `<git clone>` - command to clone SSH key
 5. `<CMD>` + `<v>` - to paste the copied SSH key from Github account
@@ -27,9 +27,9 @@ After logging in, clone lab7 from your forked repository. Since we've added a ne
 ### Step 6: Running tests on the buggy code
 
 To access *ListExamples.java* we need to enter lab7's directory. The keys/commands pressed to run tests on the file were:
-  1. `<cd>` (to change directories) + `<lab7`(to enter lab7 directory)
-  2. `<cmd><c>` + `<cmd><v>` (to copy and paste junit compile command) + `ListExamplesTests.java` (typed to compile the ListExamplesTests file)
-  3. `<cmd><c>` + `<cmd><v>` (to copy and paste junit execution command) + `ListExamplesTests` (typed to execute ListExamplesTests file)
+  1. `<cd>` (to change directories) + `<lab7>` (to enter lab7 directory)
+  2. `<cmd><c>` + `<cmd><v>` (to copy and paste junit compile command) + `<ListExamplesTests.java>` (typed to compile the ListExamplesTests file)
+  3. `<cmd><c>` + `<cmd><v>` (to copy and paste junit execution command) + `<ListExamplesTests>` (typed to execute ListExamplesTests file)
  
 ![Image](failedTest.png)
 
