@@ -75,13 +75,12 @@ Finally, to commit and push the resulting change into your Github account, the k
   ![Image](gitAdd.png)
   
   
-  4. `<git push>` (pushes the changes to your online Github account)
+  3. `<git push>` (pushes the changes to your online Github account)
    
    ![Image](gitPush.png)
   
-  
-10. You should now see that *ListExamples.java*'s last commit is "now" instead of "4 days ago" from when lab7 was initially forked from the CSE15L repository! 
+You should now see that *ListExamples.java*'s last commit is "now" instead of "4 days ago" from when lab7 was initially forked from the CSE15L repository! 
 
-    ![Image](changeConfirmation.png)
+   ![Image](changeConfirmation.png)
   
  
