@@ -4,8 +4,8 @@
  
 ### Step 4: Logging into  ieng6
 The key strokes to log in-
-1. `ssh` - to remotely access the ieng6 server
-2. `cs15lsp23XX@ieng6.ucsd.edu` - your ieng6 account username, *XX* replaced with respective ID
+1. `<ssh>` - to remotely access the ieng6 server
+2. `<cs15lsp23XX@ieng6.ucsd.edu>` - your ieng6 account username, *XX* replaced with respective ID
 
 As demonstrated below:
 
@@ -15,11 +15,11 @@ As demonstrated below:
 
 After logging in, clone lab7 from your forked repository. Since we've added a new SSH key on our GitHub account, remember to clone the SSH Key when cloning. It should look like this, with the following key strokes to clone into the desired directory-
 
-1. `mkdir` - to create a new directory, "lab7"
-2. `lab7` - typed in addition to `mkdir`
-3. `cd lab7` - to change directories into lab7
-4. `git clone` - command to clone SSH key
-5. `CMD` + `v` - to paste the copied SSH key from Github account
+1. `<mkdir>` - to create a new directory, "lab7"
+2. `<lab7>` - typed in addition to `mkdir`
+3. `<cd> <lab7>` - to change directories into lab7
+4. `<git clone>` - command to clone SSH key
+5. `<CMD>` + `<v>` - to paste the copied SSH key from Github account
 
 ![Image](gitClone.png)
 
@@ -36,7 +36,7 @@ To access *ListExamples.java* we need to enter lab7's directory. The keys/comman
 ### Step 7: Editing and fixing the bug
 
 As demonstrated in step 6, the tests should have 1 failure because of a bug in ListExamples. Since compiling and running tests were previously completed, the compile and run command as already in the history. However, the keys pressed to edit the code were the following: 
-  1. `vim ListExamples.java` (to access the contents of the file to edit)
+  1. `<vim> <ListExamples.java>` (to access the contents of the file to edit)
  
  Now that we're in ListExamples.java, the keys pressed to get to code we want to edit- *index1* were:
  
@@ -70,7 +70,7 @@ After `<:wq>`, you should have returned to the terminal and ListExamplesTests ca
 
 Finally, to commit and push the resulting change into your Github account, the keys/commands pressed were:
   1. `<git commit -m <insert message here>>` (commits these changes, "-m" inserts chosen message, in the dmeonstration below: "lab report 7 tasks")
-  2. `git add ListExamples.java` (add changes to your Github account)
+  2. `<git add> <ListExamples.java>` (add changes to your Github account)
 
   ![Image](gitAdd.png)
   
