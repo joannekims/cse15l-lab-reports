@@ -23,8 +23,7 @@ The student was not in the correct directory to curl the bash script file. As de
 ### 4. All Information Needed
 * the file & directory structure needed in this student's case was-  "/scenario2/list-examples-grader". 
 * the contents of the file before fixing the bug 
-```
-CPATH='.:hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+```CPATH='.:hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
 git clone $1 student-submission
@@ -79,8 +78,8 @@ else
   echo "--------------"
   echo ""
 fi
-
 ```
+
 * the full command line ran to trigger the bug: 
   * `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3`
   
